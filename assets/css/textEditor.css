@@ -1,0 +1,89 @@
+
+.section {
+  background-color: #ffffff;
+
+  padding: 50px 30px;
+
+  border-radius: 10px;
+  width: auto;
+  height: fit-content;
+
+}
+
+.section .col {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: #00000059 0px 5px 15px;
+}
+
+.section .box {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.section .first {
+    border-right: 2px solid #40576d33;
+}
+
+.section input[type=number] {
+    outline: none;
+    border: none;
+    width: 50px;
+    color: #131c35;
+    font-size: 24px;
+    padding: 10px 0px;
+    margin-left: 10px;
+}
+
+.section .second {
+    border-right: 2px solid #40576d33;
+}
+
+.section button {
+    border: none;
+    color: #131c35;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: transparent;
+    padding: 10px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.section button:hover {
+    background-color: #40576d1a;
+}
+
+.section button.active {
+    background-color: #73b1e333;
+    color: #5271ff;
+}
+
+.section .third {
+    border-right: 2px solid #40576d33;
+}
+
+.section .third button:focus {
+    background-color: #73b1e333;
+    color: #5271ff;
+}
+
+.section input[type=color] {
+    width: 35px;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+#textarea1 {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    resize: vertical;
+}
